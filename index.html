@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>よなかま｜夜中、起きているのはあなただけじゃない。</title>
+<meta name="description" content="夜中の授乳や寝かしつけで起きている親どうしが、会話なしで気配だけを感じられるアプリ。「おつかれ🌙」を送り合い、がんばった時間が灯りになって積み上がります。">
+<meta property="og:title" content="よなかま｜夜中、起きているのはあなただけじゃない。">
+<meta property="og:description" content="夜中の授乳や寝かしつけに、同じ夜を過ごす仲間の気配を。会話なし、匿名、無料。">
+<meta property="og:image" content="og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg:#0d1020; --panel:#171b33; --panel2:#1f2442; --text:#e8e4d8; --sub:#9a98a8; --lamp:#f2c46d; --moon:#f5e9c4; --accent:#8fa3ff; }
+  * { box-sizing: border-box; }
+  body { margin:0; background: radial-gradient(ellipse at 30% 0%, #1e2655 0%, var(--bg) 60%) fixed; color:var(--text);
+         font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif; line-height:1.8; }
+  .stars { position:fixed; inset:0; pointer-events:none;
+    background-image: radial-gradient(1.5px 1.5px at 10% 20%, #f5e9c4 50%, transparent 51%), radial-gradient(1px 1px at 80% 10%, #f5e9c4 50%, transparent 51%),
+      radial-gradient(1px 1px at 60% 40%, #f5e9c4aa 50%, transparent 51%), radial-gradient(1.5px 1.5px at 90% 70%, #f5e9c4 50%, transparent 51%),
+      radial-gradient(1px 1px at 25% 80%, #f5e9c4aa 50%, transparent 51%), radial-gradient(1px 1px at 45% 15%, #f5e9c4 50%, transparent 51%); }
+  main { max-width: 760px; margin: 0 auto; padding: 0 20px 80px; position:relative; }
+  header { text-align:center; padding: 64px 0 32px; }
+  header img { width:150px; height:150px; border-radius:34px; box-shadow:0 12px 40px #f2c46d33; }
+  h1 { font-size: 40px; color: var(--moon); margin: 18px 0 0; letter-spacing: .06em; }
+  .lead { font-size: 22px; margin: 12px 0 0; }
+  .sub { color: var(--sub); font-size: 15px; margin-top: 8px; }
+  .cta { display:inline-block; margin-top:28px; background:var(--lamp); color:var(--bg); font-weight:700; padding:14px 30px; border-radius:999px; text-decoration:none; }
+  .soon { color: var(--sub); font-size: 13px; margin-top: 10px; }
+  section { margin-top: 56px; }
+  h2 { color: var(--lamp); font-size: 22px; text-align:center; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 14px; margin-top: 20px; }
+  .card { background: var(--panel); border-radius: 20px; padding: 20px; border:1px solid #262c55; }
+  .card .em { font-size: 30px; }
+  .card h3 { margin: 6px 0 4px; font-size: 17px; color: var(--moon); }
+  .card p { margin: 0; color: var(--sub); font-size: 14px; }
+  .quote { background: var(--panel2); border-radius: 20px; padding: 24px; text-align:center; font-size: 17px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-top:16px; }
+  .chip { background: var(--panel2); border-radius:999px; padding:6px 14px; font-size:14px; }
+  .care { background: #1d2238; border:1px solid #3a4170; border-radius: 20px; padding: 20px; font-size: 14px; color: var(--sub); }
+  footer { text-align:center; color: var(--sub); font-size: 13px; margin-top: 64px; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<main>
+  <header>
+    <img src="icon.png" alt="よなかまのアイコン（ナイトキャップをかぶったフクロウ）">
+    <h1>よなかま</h1>
+    <p class="lead">夜中、起きているのは<br>あなただけじゃない。</p>
+    <p class="sub">授乳、夜泣き、寝かしつけ。<br>同じ夜を過ごす仲間の「気配」を感じられるアプリです。</p>
+    <a class="cta" href="#about">どんなアプリ？</a>
+    <p class="soon">App Store・Google Playで近日公開</p>
+  </header>
+
+  <section id="about">
+    <div class="quote">会話はありません。<br>部屋に入ると、同じ時間に起きている仲間が<br>動物のすがたで並んでいます。</div>
+  </section>
+
+  <section>
+    <h2>できること</h2>
+    <div class="grid">
+      <div class="card"><div class="em">🌙</div><h3>部屋に入るだけ</h3><p>「いま、◯人がおなじ夜を過ごしています」。チャットもコメントもなし。名前の登録もいりません。</p></div>
+      <div class="card"><div class="em">🍼</div><h3>子どもの様子を知らせる</h3><p>授乳中、夜泣き中、抱っこでゆらゆら……。選んだ様子に合わせて、キャラクターが動きます。</p></div>
+      <div class="card"><div class="em">🫶</div><h3>「おつかれ🌙」を送り合う</h3><p>仲間をタップするだけ。言葉はいりません。届くと、スマホがそっと震えます。</p></div>
+      <div class="card"><div class="em">⭐</div><h3>がんばった時間が灯りに</h3><p>起きていた時間は、灯りの輪と星になって積み上がります。夜ごとの記録も見返せます。</p></div>
+      <div class="card"><div class="em">🎁</div><h3>ごほうびと称号</h3><p>ポイントでナイトキャップやブランケットと交換。早く眠れた夜にもボーナスがあります。</p></div>
+      <div class="card"><div class="em">🌑</div><h3>夜中にやさしい</h3><p>まぶしくない「まっくらモード」、片手で操作、通知で起こさない。雨の音などの環境音も。</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>いまの様子を、ひとつ選ぶだけ</h2>
+    <div class="chips">
+      <span class="chip">🍼 授乳・ミルク中</span><span class="chip">😭 夜泣き中</span><span class="chip">🤱 抱っこでゆらゆら</span>
+      <span class="chip">🚶 抱っこで歩いてる</span><span class="chip">🔁 寝たと思ったら起きた</span><span class="chip">😵 もう限界…</span>
+      <span class="chip">😴 やっと寝た</span>
+    </div>
+    <p class="sub" style="text-align:center">夜に仕事や勉強をする人のための「よふかし作業部屋」もあります。</p>
+  </section>
+
+  <section>
+    <div class="care">
+      <strong style="color:var(--moon)">ひとりで抱えないでね</strong><br>
+      子どもの急な症状で迷ったときは <strong>#8000（子ども医療電話相談）</strong>、子育ての疲れや悩みは
+      <a href="https://www.cfa.go.jp/policies/jidougyakutai/oyako-line/" style="color:var(--accent)">親子のための相談LINE（こども家庭庁）</a> に相談できます。
+      アプリの中でも「もう限界…」を選ぶと、相談先をご案内します。
+    </div>
+  </section>
+
+  <footer>
+    <p>🌙 よなかま</p>
+    <p><a href="privacy.html">プライバシーポリシー</a>　／　お問い合わせ：<a href="mailto:donpanillo@gmail.com">donpanillo@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
