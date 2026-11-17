@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>よなかま｜夜中、起きているのはあなただけじゃない。</title>
-<meta name="description" content="夜中の授乳や寝かしつけで起きている親どうしが、会話なしで気配だけを感じられるアプリ。「おつかれ🌙」を送り合い、がんばった時間が灯りになって積み上がります。">
-<meta property="og:title" content="よなかま｜夜中、起きているのはあなただけじゃない。">
-<meta property="og:description" content="夜中の授乳や寝かしつけに、同じ夜を過ごす仲間の気配を。会話なし、匿名、無料。">
+<title>よなかま｜夜の団地で、灯りをともそう</title>
+<meta name="description" content="夜中の授乳や寝かしつけ。同じ時間に起きている人の窓に明かりがつく、夜の団地アプリ。チャットはなし、窓をタップして「おつかれ」を送り合うだけ。匿名・無料。">
+<meta property="og:title" content="よなかま｜夜の団地で、灯りをともそう">
+<meta property="og:description" content="夜中の授乳や寝かしつけ。同じ時間に起きている人の窓に、明かりがつく。チャットなし・匿名・無料。">
 <meta property="og:image" content="https://yonakama.github.io/og.png">
 <meta property="og:url" content="https://yonakama.github.io/">
 <meta property="og:type" content="website">
@@ -33,7 +33,8 @@
   h2 { color: var(--lamp); font-size: 22px; text-align:center; }
   .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 14px; margin-top: 20px; }
   .card { background: var(--panel); border-radius: 20px; padding: 20px; border:1px solid #262c55; }
-  .card .em { font-size: 30px; }
+  .card .no { color: var(--lamp); font-weight:700; font-size: 13px; letter-spacing:.1em; }
+  .hero { width:100%; border-radius:24px; margin-top:28px; box-shadow:0 16px 48px #0008; }
   .card h3 { margin: 6px 0 4px; font-size: 17px; color: var(--moon); }
   .card p { margin: 0; color: var(--sub); font-size: 14px; }
   .quote { background: var(--panel2); border-radius: 20px; padding: 24px; text-align:center; font-size: 17px; }
@@ -50,34 +51,35 @@
   <header>
     <img src="icon.png" alt="よなかまのアイコン（ナイトキャップをかぶったフクロウ）">
     <h1>よなかま</h1>
-    <p class="lead">夜中、起きているのは<br>あなただけじゃない。</p>
-    <p class="sub">授乳、夜泣き、寝かしつけ。<br>同じ夜を過ごす仲間の「気配」を感じられるアプリです。</p>
+    <p class="lead">夜の団地で、灯りをともそう。</p>
+    <p class="sub">授乳、夜泣き、寝かしつけ。<br>同じ時間に起きている人の窓に、ひとつずつ明かりがつきます。</p>
+    <img class="hero" src="og.png" alt="夜の団地。いくつかの窓に明かりがつき、動物たちが赤ちゃんを抱っこしている">
     <a class="cta" href="#about">どんなアプリ？</a>
     <p class="soon">App Store・Google Playで近日公開</p>
   </header>
 
   <section id="about">
-    <div class="quote">会話はありません。<br>部屋に入ると、同じ時間に起きている仲間が<br>動物のすがたで並んでいます。</div>
+    <div class="quote">文章のやりとりはありません。<br>部屋に入ると、あなたの窓に明かりがつき、<br>同じ時間に起きている人の窓も灯ります。</div>
   </section>
 
   <section>
     <h2>できること</h2>
     <div class="grid">
-      <div class="card"><div class="em">🌙</div><h3>部屋に入るだけ</h3><p>「いま、◯人がおなじ夜を過ごしています」。チャットもコメントもなし。名前の登録もいりません。</p></div>
-      <div class="card"><div class="em">🍼</div><h3>子どもの様子を知らせる</h3><p>授乳中、夜泣き中、抱っこでゆらゆら……。選んだ様子に合わせて、キャラクターが動きます。</p></div>
-      <div class="card"><div class="em">🫶</div><h3>「おつかれ🌙」を送り合う</h3><p>仲間をタップするだけ。言葉はいりません。届くと、スマホがそっと震えます。</p></div>
-      <div class="card"><div class="em">⭐</div><h3>がんばった時間が灯りに</h3><p>起きていた時間は、灯りの輪と星になって積み上がります。夜ごとの記録も見返せます。</p></div>
-      <div class="card"><div class="em">🎁</div><h3>ごほうびと称号</h3><p>ポイントでナイトキャップやブランケットと交換。早く眠れた夜にもボーナスがあります。</p></div>
-      <div class="card"><div class="em">🌑</div><h3>夜中にやさしい</h3><p>まぶしくない「まっくらモード」、片手で操作、通知で起こさない。雨の音などの環境音も。</p></div>
+      <div class="card"><div class="no">01</div><h3>窓に明かりがつく</h3><p>「いま、○人がおなじ夜を過ごしています」。少し前までいた人の窓も、30分だけうっすら残ります。名前やメールの登録はいりません。</p></div>
+      <div class="card"><div class="no">02</div><h3>いまの様子を知らせる</h3><p>授乳中、夜泣き中、抱っこでゆらゆら……。選んだ様子に合わせて、窓の中の様子が変わります。</p></div>
+      <div class="card"><div class="no">03</div><h3>「おつかれ」を送り合う</h3><p>仲間の窓をタップするだけ。決まったひとことだけが届き、窓がぽっと光ります。</p></div>
+      <div class="card"><div class="no">04</div><h3>がんばった時間が記録に</h3><p>起きていた時間は、夜ごとの記録になって積み上がります。月の満ち欠けで見返せます。</p></div>
+      <div class="card"><div class="no">05</div><h3>ごほうびと称号</h3><p>ポイントでナイトキャップやブランケットと交換。早く眠れた夜にもボーナスがあります。</p></div>
+      <div class="card"><div class="no">06</div><h3>夜中にやさしい</h3><p>まぶしくない「まっくらモード」、片手で操作、通知で起こさない。雨の音などの環境音も。</p></div>
     </div>
   </section>
 
   <section>
     <h2>いまの様子を、ひとつ選ぶだけ</h2>
     <div class="chips">
-      <span class="chip">🍼 授乳・ミルク中</span><span class="chip">😭 夜泣き中</span><span class="chip">🤱 抱っこでゆらゆら</span>
-      <span class="chip">🚶 抱っこで歩いてる</span><span class="chip">🔁 寝たと思ったら起きた</span><span class="chip">😵 もう限界…</span>
-      <span class="chip">😴 やっと寝た</span>
+      <span class="chip">授乳・ミルク中</span><span class="chip">夜泣き中</span><span class="chip">抱っこでゆらゆら</span>
+      <span class="chip">抱っこで歩いてる</span><span class="chip">寝たと思ったら起きた</span><span class="chip">もう限界…</span>
+      <span class="chip">やっと寝た</span>
     </div>
     <p class="sub" style="text-align:center">夜に仕事や勉強をする人のための「よふかし作業部屋」もあります。</p>
   </section>
@@ -92,7 +94,7 @@
   </section>
 
   <footer>
-    <p>🌙 よなかま</p>
+    <p>よなかま</p>
     <p><a href="privacy.html">プライバシーポリシー</a>　／　お問い合わせ：<a href="mailto:donpanillo@gmail.com">donpanillo@gmail.com</a></p>
   </footer>
 </main>
