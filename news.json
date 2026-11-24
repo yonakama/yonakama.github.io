@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-11-24-v1-2",
+    "date": "2026-11-24",
+    "title": "1.2を公開しました：ウィジェットと、はじめての夜のガイド",
+    "body": "ホーム画面のウィジェットで、いま何人が起きているかを、アプリを開かなくても見られるようになりました。はじめての夜のガイドは、設定の「使い方・ヘルプ」からいつでも見直せます。繁體中文・韓国語にも対応しました。App Storeでアップデートしてください。",
+    "en": {
+      "title": "Version 1.2: widget and first-night guide",
+      "body": "A Home Screen widget now shows how many people are awake right now. You can replay the first-night guide anytime from Settings > How to use & Help. Traditional Chinese and Korean are now supported. Update from the App Store."
+    }
+  },
+  {
     "id": "2026-11-23-release",
     "date": "2026-11-23",
     "title": "よなかまを公開しました",
