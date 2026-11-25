@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-11-25-v1-3",
+    "date": "2026-11-25",
+    "title": "1.3を公開しました：部屋が見やすく、少し離れても戻れるように",
+    "body": "部屋のボタンを整理し、音の設定は「音」ボタンにまとめました。アプリを少し離れても、30分以内なら同じ部屋に戻れます。人が少ない時間は、今夜とゆうべ起きていた人の数も見られます。よなかま＋のお試しは、カード登録なしの14日間です。App Storeでアップデートしてください。",
+    "en": {
+      "title": "Version 1.3: a cleaner room, and come back after a break",
+      "body": "The room screen is tidier, with sound settings under the Sound button. If you step away, you can return to the same room within 30 minutes. On quiet nights you can see how many people were up tonight and last night. The Yonakama+ trial is now 14 days with no card needed. Update from the App Store."
+    }
+  },
+  {
     "id": "2026-11-24-v1-2",
     "date": "2026-11-24",
     "title": "1.2を公開しました：ウィジェットと、はじめての夜のガイド",
