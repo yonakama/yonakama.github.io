@@ -2,7 +2,7 @@
 Using (experimental) base path: /app
 Starting Metro Bundler
 
-Web Bundled 34348ms index.ts (877 modules)
+Web Bundled 38464ms index.ts (878 modules)
 
 › Assets (217):
 assets/building/floor.d8537b64a6742fb306eec02e5fda3b68.png (542KB)
@@ -224,7 +224,7 @@ node_modules/@expo-google-fonts/zen-maru-gothic/700Bold/ZenMaruGothic_700Bold.9f
 node_modules/@expo-google-fonts/zen-maru-gothic/900Black/ZenMaruGothic_900Black.0644b76f5bac60c2cf15c0b51a9148bb.ttf (3.7MB)
 
 › web bundles (1):
-_expo/static/js/web/index-eabfe3ae3674f2d994e62a8b61961579.js (3.5MB)
+_expo/static/js/web/index-7ddfb0d7507be894182d7053f83c4a45.js (3.6MB)
 
 › Files (3):
 favicon.ico (15KB)
